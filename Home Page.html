@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="shortcut icon" href="img/ES ICON.png" type="image/png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/fontawesome-free-5.8.1-web/css/all.css">
+    <title>Easy Study</title>
+</head>
+
+<body>
+
+    <div id="nav-bar">
+        <nav class="Nav">
+            <span class="close-btn"><i class="fas fa-bars"></i></span>
+            <ul class="main-Nav">
+                <h3 id="Menu-Header">Easy Study</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Section</a>
+                    <div id="dropdown"
+                        uk-dropdown="pos: right-bottom;animation: uk-animation-slide-left-small; duration: 300">
+                        <ul class="dropdown">
+                            <li><a href="./Pages/page1.html">Programing</a></li>
+                            <li><a href="./Pages/page2.html">Electronic</a></li>
+                            <li><a href="./Pages/page3.html">Microprocessor</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./Pages/About.html">About</a></li>
+            </ul>
+        </nav>
+
+
+
+
+
+        <form action="" class="form-inline" id="forms">
+            <h3 id="Page-Header"> Easy Study </h3>
+
+
+            <div class="search-box ml-auto">
+                <input class="search-txt" type="text" placeholder="Type to search">
+                <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="" style="color:white;float:right;font-family:Arial, Helvetica, sans-serif;">
+                <ul class="sign-in nav">
+                    <li><a href="Pages/Sign In.html">Sign In</a></li>
+                </ul>
+            </div>
+        </form>
+        
+
+
+    </div>
+    <!-- SlideShow -->
+    <div class="bd-example" style="margin-top: 1px;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/6.jpg" style="height: 700px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: rgb(255, 255, 255);">Es allows you to download all books you need while
+                            studying your course
+                        </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" style="height: 700px ;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-white">Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/4.jpg" style="height: 700px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-white">Learn more about programing language and everything you need to master it
+                            by easy way
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- VideosAndTutorial -->
+
+    <!-- First Row -->
+    <div class="card-group" style="margin-top:10px;">
+        <div class="uk-card uk-card-default uk-width-1-2@m">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="img/ES ICON.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom"><a
+                                href="https://www.youtube.com/watch?v=OU0CBOrPZss&list=PLMYF6NkLrdN9YGZLeXIot4sJe9iQuBrB-">HTML
+                                Tutorials</a></h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Muhammed
+                                Essa</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <video class="video" src="./videos/1  HTML ⁄ HTML5 intro.mp4" id="Vid1"></video>
+            </div>
+            <div class="uk-card-footer">
+                <a href="https://www.youtube.com/watch?v=OU0CBOrPZss&list=PLMYF6NkLrdN9YGZLeXIot4sJe9iQuBrB-"
+                    class="uk-button uk-button-text">Read more</a>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="uk-card uk-card-default uk-width-1-2@m">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="img/ES ICON.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom"><a
+                                href="https://www.youtube.com/watch?v=n2jQu8VBNWY&list=PLMYF6NkLrdN8dlFXsEGnchyfLbfG1RkX5">CSS
+                                Tutorials</a></h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Muhammed
+                                Essa</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <video class="video" src="./videos/1  CSS ⁄ CSS3 intro.mp4" id="Vid2"></video>
+            </div>
+            <div class="uk-card-footer">
+                <a href="https://www.youtube.com/watch?v=n2jQu8VBNWY&list=PLMYF6NkLrdN8dlFXsEGnchyfLbfG1RkX5"
+                    class="uk-button uk-button-text">Read more</a>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="uk-card uk-card-default uk-width-1-2@m">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="img/ES ICON.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom"><a
+                                href="https://www.youtube.com/watch?v=R_ejkgZwQIs&list=PLMYF6NkLrdN-YRGdm0LghElMhz-7O_DL8">JS
+                                Tutorials</a></h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Muhammed
+                                Essa</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <video class="video" src="./videos/1  JavaScript intro.mp4" id="Vid2"></video>
+            </div>
+            <div class="uk-card-footer">
+                <a href="https://www.youtube.com/watch?v=R_ejkgZwQIs&list=PLMYF6NkLrdN-YRGdm0LghElMhz-7O_DL8"
+                    class="uk-button uk-button-text">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="card-group" style="margin-top:10px;margin-bottom: 10px;">
+        <div class="uk-card uk-card-default uk-width-1-2@m">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="img/ES ICON.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom"><a
+                                href="https://www.youtube.com/watch?v=OU0CBOrPZss&list=PLMYF6NkLrdN9YGZLeXIot4sJe9iQuBrB-">MOSFETs</a></h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00"></time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <video class="video" src="./videos/How MOSFETs and Field-Effect Transistors Work!.mp4" id="Vid1"></video>
+            </div>
+            <div class="uk-card-footer">
+                <a href="https://www.youtube.com/watch?v=OU0CBOrPZss&list=PLMYF6NkLrdN9YGZLeXIot4sJe9iQuBrB-"
+                    class="uk-button uk-button-text">Read more</a>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="uk-card uk-card-default uk-width-1-2@m">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="img/ES ICON.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom"><a
+                                href="https://www.youtube.com/watch?v=n2jQu8VBNWY&list=PLMYF6NkLrdN8dlFXsEGnchyfLbfG1RkX5">Cascaded Systems</a></h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00"></time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <video class="video" src="./videos/Cascaded Systems.mp4" id="Vid2"></video>
+            </div>
+            <div class="uk-card-footer">
+                <a href="https://www.youtube.com/watch?v=n2jQu8VBNWY&list=PLMYF6NkLrdN8dlFXsEGnchyfLbfG1RkX5"
+                    class="uk-button uk-button-text">Read more</a>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="uk-card uk-card-default uk-width-1-2@m">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="img/ES ICON.png">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom"><a
+                                href="https://www.youtube.com/watch?v=R_ejkgZwQIs&list=PLMYF6NkLrdN-YRGdm0LghElMhz-7O_DL8">Transistors</a></h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00"></time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <video class="video" src="./videos/Transistors, How do they work _.mp4" id="Vid2"></video>
+            </div>
+            <div class="uk-card-footer">
+                <a href="https://www.youtube.com/watch?v=R_ejkgZwQIs&list=PLMYF6NkLrdN-YRGdm0LghElMhz-7O_DL8"
+                    class="uk-button uk-button-text">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" style="color:white;margin:0;padding:30px;">
+        <div class="row">
+            <div class="col-6">
+                <h4 class="text-white">About Us</h4>
+                <p class="uk-text-meta ">ES means Easy-Study, It is a simple website to learning it is providing many
+                    things to learn it is simple and easy to use, it is your gate to e-learning Sign-In to have special
+                    features like download videos and upload videos.
+                </p>
+            </div>
+            <div class="col-3">
+                <h4 class="text-white">Designer</h4>
+                <p class="uk-text-meta">Suliman Ahmed</p>
+            </div>
+            <div class="col col-lg-auto" style="text-align:center;">
+                <h4 class="text-white">Contact us :</h4>
+                <p class="uk-text-meta">Suliman Ahmed :<br /> <a
+                        href="mailto:su1man.ahmed1999@gmail.com">su1man.ahmed1999@gmail.com</a>
+                    <p style="color:crimson">+9647705472766</p>
+                </p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <hr style="background-color:aliceblue;">
+        <div>
+            <p class="uk-text-meta" style="float:left;">Copyrights&copy; are saved for <a
+                    href="mailto:su1man.ahmed1999@gmail.com">Suliman Ahmed</a></p>
+            <div style="float:right;" class="social-media">
+                <a href="https://t.me/Mr_Suliman"><i
+                        class="fab fa-telegram-plane text-white so uk-border-circle"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100007166922987"><i
+                        class="fab fa-facebook text-white so uk-border-circle"></i></a>
+                <a href="https://www.instagram.com/_suliman_a99/"><i
+                        class="fab fa-instagram text-white so uk-border-circle"></i></a>
+            </div>
+            <div class="time">
+                <div id="time"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="js/JQuery.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+        integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous">
+    </script> -->
+    <script src="js/Scripts.js"></script>
+    <script src="js/Js.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

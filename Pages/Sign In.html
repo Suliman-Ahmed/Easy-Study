@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/Sign in.css">
+    <link rel="shortcut icon" href="../img/ES ICON.png" type="image/png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/fontawesome-free-5.8.1-web/css/all.css">
+    <title>Easy Study</title>
+</head>
+
+<body id="Sign-in-body">
+
+    <div id="nav-bar">
+        <nav class="Nav">
+            <span class="close-btn"><i class="fas fa-bars"></i></span>
+            <ul class="main-Nav">
+                <h3 id="Menu-Header">Easy Study</h3>
+                <li><a href="../Home Page.html">Home</a></li>
+                <li><a href="#">Section</a>
+                    <div id="dropdown"
+                        uk-dropdown="pos: right-bottom;animation: uk-animation-slide-left-small; duration: 300">
+                        <ul class="dropdown">
+                            <li><a href="./page1.html">Programing</a></li>
+                            <li><a href="./page2.html">Electronic</a></li>
+                            <li><a href="./page3.html">Microprocessor</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./About.html">About</a></li>
+            </ul>
+        </nav>
+
+
+
+        <form action="" class="form-inline" id="forms">
+            <h3 id="Page-Header"> Sign In</h3>
+
+            <div class="search-box ml-auto">
+                <input class="search-txt" type="text" placeholder="Type to search">
+                <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+    <div class="sign uk-card">
+        <div class="container">
+            <form class="signUp form">
+                <h3 class="h3">Create Your Account</h3>
+                <p class="p">Just enter your email address<br />
+                    and your password for join.
+                </p>
+                <input class="w100 input" type="email" placeholder="Insert eMail" reqired autocomplete='off' />
+                <input class="input" type="password" placeholder="Insert Password" reqired />
+                <input class="input" type="password" placeholder="Verify Password" reqired />
+                <button class="form-btn sx log-in" type="button">Log In</button>
+                <a href="../Home Page.html"><button class="form-btn dx" type="submit"
+                        onclick="alert('Thank You for join to us')">Sign Up</button></a>
+            </form>
+            <form class="signIn form">
+                <h3 class="h3">Welcome<br />Back !</h3>
+                <button class="fb" type="button">Log In With Facebook</button>
+                <p class="p">- or -</p>
+                <input class="input" type="email" placeholder="Insert eMail" autocomplete='off' reqired />
+                <input class="input" type="password" placeholder="Insert Password" reqired />
+                <button class="form-btn sx back" type="button">Back</button>
+                <a href="../Home Page.html"><button class="form-btn dx" type="submit">Log In</button></a>
+            </form>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- Footer -->
+    <div class="footer" style="color:white;margin:0;padding:30px;">
+        <div class="row">
+            <div class="col-6">
+                <h4 class="text-white">About Us</h4>
+                <p class="uk-text-meta ">ES means Easy-Study, It is a simple website to learning it is providing many
+                    things to learn it is simple and easy to use, it is your gate to e-learning Sign-In to have special
+                    features like download videos and upload videos.
+                </p>
+            </div>
+            <div class="col-3">
+                <h4 class="text-white">Designer</h4>
+                <p class="uk-text-meta">Suliman Ahmed</p>
+            </div>
+            <div class="col col-lg-auto" style="text-align:center;">
+                <h4 class="text-white">Contact us :</h4>
+                <p class="uk-text-meta">Suliman Ahmed :<br /> <a
+                        href="mailto:su1man.ahmed1999@gmail.com">su1man.ahmed1999@gmail.com</a>
+                    <p style="color:crimson">+9647705472766</p>
+                </p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <hr style="background-color:aliceblue;">
+        <div>
+            <p class="uk-text-meta" style="float:left;">Copyrights&copy; are saved for <a
+                    href="mailto:su1man.ahmed1999@gmail.com">Suliman Ahmed</a></p>
+            <div style="float:right;" class="social-media">
+                <a href="https://t.me/Mr_Suliman"><i
+                        class="fab fa-telegram-plane text-white so uk-border-circle"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100007166922987"><i
+                        class="fab fa-facebook text-white so uk-border-circle"></i></a>
+                <a href="https://www.instagram.com/_suliman_a99/"><i
+                        class="fab fa-instagram text-white so uk-border-circle"></i></a>
+            </div>
+            <div class="time">
+                <div id="time"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="../js/JQuery.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+        integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous">
+    </script> -->
+    <script src="../js/Scripts.js"></script>
+    <script src="../js/Js.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
